@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Nesting;
+    src: url("../fonts/NESTING-PERSONALUSE.otf");
+}
+* {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg, #F2E3D0, #F27B35, #A64826);
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+}
+h1 {
+   text-align: center;
+   font-family: Nesting; 
+   color: #391911;
+}
+h3 {
+    text-align: center;
+    font-family: Nesting;
+    color: #391911;
+}
+p {
+    text-align: justify;
+}
+footer p {
+    text-align: right;
+    color: white;
+    text-shadow: #391911;
+    padding-top: 10px;
+    font-size: small;
+}
+footer img {
+    position: absolute;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
